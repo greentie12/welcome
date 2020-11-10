@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -48,7 +48,8 @@ img {
 
 .hero {
   height: 100vh;
-  background: url("/img/creative-hero-image-grey1-1500x1500.jpg") no-repeat center/cover;
+  background: url("../img/creative-hero-image-grey1-1500x1500.jpg") no-repeat
+    center/cover;
 }
 
 .hero .container {
@@ -67,7 +68,7 @@ img {
   left: 50%;
   margin-right: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .hero .container .main-message h1,
@@ -152,11 +153,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   bottom: -40%;
   -webkit-animation: placement 2s infinite;
-          animation: placement 2s infinite;
+  animation: placement 2s infinite;
 }
 
 .hero .container .main-message .pointer-down a i {
@@ -212,8 +213,8 @@ main #projects-title h3 span {
 main .project-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr) [3];
+  grid-template-columns: repeat(3, 1fr);
 }
 
 main a {
@@ -222,7 +223,7 @@ main a {
 
 main a img {
   -webkit-filter: brightness(60%);
-          filter: brightness(60%);
+  filter: brightness(60%);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   vertical-align: middle;
@@ -230,9 +231,9 @@ main a img {
 
 main a img:hover {
   -webkit-filter: brightness(100%);
-          filter: brightness(100%);
+  filter: brightness(100%);
   -webkit-transform: scale(1.03);
-          transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .about-me {
@@ -253,7 +254,7 @@ main a img:hover {
   width: 150px;
   border-radius: 100%;
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .about-me .container .about-content h3 {
@@ -288,8 +289,8 @@ main a img:hover {
   gap: 6rem;
   margin: auto;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 3rem;
 }
 
@@ -309,8 +310,16 @@ main a img:hover {
 
 .clients {
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(78, 202, 194, 0.4)), to(black)), url("../img/laptop1.jpg") no-repeat center/cover;
-  background: linear-gradient(90deg, rgba(78, 202, 194, 0.4) 0%, black 100%), url("../img/laptop1.jpg") no-repeat center/cover;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(78, 202, 194, 0.4)),
+      to(black)
+    ),
+    url("../img/laptop1.jpg") no-repeat center/cover;
+  background: linear-gradient(90deg, rgba(78, 202, 194, 0.4) 0%, black 100%),
+    url("../img/laptop1.jpg") no-repeat center/cover;
 }
 
 .clients .container {
@@ -332,18 +341,18 @@ main a img:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .clients .container .client-content .client-image img {
   width: 100px;
   border-radius: 50%;
   -webkit-filter: grayscale(70%);
-          filter: grayscale(70%);
+  filter: grayscale(70%);
   margin-right: 0.5rem;
 }
 
@@ -391,14 +400,14 @@ main a img:hover {
 .list .container .list-content .grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr) [3];
+  grid-template-columns: repeat(3, 1fr);
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: left;
   gap: 3rem;
 }
@@ -409,11 +418,11 @@ main a img:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .list .container .list-content .grid-container .grid-item .icon {
@@ -460,8 +469,8 @@ main a img:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .contact-hero .container .content h3 {
@@ -479,7 +488,9 @@ main a img:hover {
 .contact-hero .container .content .text-fields {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "names email" "message message";
+  grid-template-areas:
+    "names email"
+    "message message";
   gap: 1.5rem;
 }
 
@@ -493,7 +504,11 @@ main a img:hover {
 }
 
 .contact-hero .container .content .text-fields input::-webkit-input-placeholder,
-.contact-hero .container .content .text-fields textarea::-webkit-input-placeholder {
+.contact-hero
+  .container
+  .content
+  .text-fields
+  textarea::-webkit-input-placeholder {
   color: #ffffff;
   font-size: 0.9rem;
 }
@@ -579,11 +594,11 @@ main a img:hover {
   display: flex;
   gap: 4rem;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .follow .container .follow-content .social i {
@@ -603,11 +618,11 @@ footer .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 footer .container p {
@@ -619,11 +634,11 @@ footer .container .social {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 footer .container .social i {
@@ -638,11 +653,11 @@ footer .container .social .instagram {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border: 1px solid #000000;
   height: 2rem;
   width: 2rem;
