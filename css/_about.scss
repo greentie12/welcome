@@ -1,0 +1,66 @@
+.about-me {
+  width: 100%;
+
+  .container {
+    width: 70%;
+    margin: auto;
+
+    .about-content {
+      padding: 5rem;
+      text-align: center;
+
+      img {
+        width: 150px;
+        border-radius: 100%;
+        filter: grayscale(100%);
+      }
+
+      h3 {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 1.3;
+
+        span {
+          color: #4ecac2;
+          font-family: "Petit Formal Script", cursive;
+        }
+      }
+
+      hr {
+        width: 5%;
+        border: none;
+        border-bottom: 1px solid #4ecac2;
+        margin: 3rem auto;
+      }
+
+      .me-para {
+        width: 50%;
+        margin: auto;
+        font-size: 0.9rem;
+      }
+
+      .metrics {
+        display: flex;
+        max-width: 1200px;
+        gap: 6rem;
+        margin: auto;
+        justify-content: center;
+        margin-top: 3rem;
+
+        .metric-item {
+          max-width: 600px;
+
+          h2 {
+            font-family: "Roboto", sans-serif;
+            font-size: 2rem;
+            font-weight: 400;
+          }
+
+          p {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}

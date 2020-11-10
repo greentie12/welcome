@@ -1,0 +1,23 @@
+.follow {
+  width: 100%;
+
+  .container {
+    max-width: 900px;
+    margin: 6rem auto;
+    text-align: center;
+
+    .follow-content {
+      .social {
+        padding-top: 2rem;
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+        align-items: center;
+
+        i {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}

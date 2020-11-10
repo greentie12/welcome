@@ -1,0 +1,123 @@
+.hero {
+  height: 100vh;
+  background: url("/img/creative-hero-image-grey1-1500x1500.jpg") no-repeat
+    center/cover;
+
+  .container {
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    position: relative;
+
+    .main-message {
+      width: 100%;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: 50%;
+      transform: translate(-50%, -50%);
+
+      h1,
+      h2 {
+        text-transform: uppercase;
+        word-spacing: 3px;
+      }
+
+      h2 {
+        line-height: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      p {
+        color: rgb(177, 177, 177);
+        letter-spacing: 1px;
+      }
+
+      .buttons {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        a {
+          display: inline-block;
+          width: 8rem;
+          background-color: gray;
+          padding: 0.5rem;
+          font-size: 0.9rem;
+          margin: 0.5rem;
+
+          &:first-child {
+            background: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 3px;
+            transition: all 1s;
+
+            &:hover {
+              border: 2px solid #a50e78;
+            }
+          }
+
+          &:last-child {
+            background-color: #4ecac2;
+            border: 2px solid #4ecac2;
+            border-radius: 3px;
+            transition: all 1s;
+
+            &:hover {
+              background-color: #a50e78;
+              border: 2px solid #a50e78;
+            }
+          }
+        }
+      }
+
+      .social {
+        a {
+          padding: 0.5rem;
+          margin-left: 1rem;
+          margin-right: 1rem;
+          transition: all 0.5s;
+
+          &:first-child:hover {
+            color: #db2a94;
+          }
+
+          &:last-child:hover {
+            color: #1da1f3;
+          }
+
+          i {
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+      .pointer-down {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        bottom: -40%;
+        animation: placement 2s infinite;
+
+        a i {
+          color: #4ecac2;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@keyframes placement {
+  0% {
+    bottom: -40%;
+    opacity: 1;
+  }
+
+  100% {
+    bottom: -45%;
+    opacity: 0;
+  }
+}

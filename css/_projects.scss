@@ -1,0 +1,44 @@
+main {
+  #projects-title {
+    height: 12rem;
+    background-color: #1f1e1e;
+    position: relative;
+
+    .container {
+      position: absolute;
+      top: 2rem;
+      width: 100%;
+    }
+
+    h3 {
+      text-align: center;
+      padding: 0 1rem;
+      font-weight: 400;
+
+      span {
+        color: #4ecac2;
+        font-family: "Petit Formal Script", cursive;
+      }
+    }
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  a {
+    display: block;
+
+    img {
+      filter: brightness(60%);
+      transition: all 0.4s ease-in-out;
+      vertical-align: middle;
+
+      &:hover {
+        filter: brightness(100%);
+        transform: scale(1.03);
+      }
+    }
+  }
+}

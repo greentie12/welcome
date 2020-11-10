@@ -1,0 +1,59 @@
+.list {
+  width: 100%;
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+
+    .list-content {
+      padding: 10rem 1rem;
+      text-align: center;
+
+      h4 {
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 1.7;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 0.9rem;
+        line-height: 1.7;
+      }
+
+      hr {
+        width: 5%;
+        border: none;
+        border-bottom: 1px solid #4ecac2;
+        margin: 3rem auto;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        gap: 3rem;
+
+        .grid-item {
+          max-width: 350px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .icon {
+            font-size: 1.3rem;
+            margin-right: 1rem;
+
+            i {
+              border: 1px solid #585858;
+              border-radius: 50%;
+              padding: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
